@@ -480,7 +480,7 @@
     getJavaVersion: function() {
       return deployJava.getJREs().toString();
     },
-
+/*
     // Is Flash.  Check if Flash is installed.
     isFlash: function() {
       var objPlugin = navigator.plugins["Shockwave Flash"];
@@ -498,7 +498,7 @@
       }
       return "";
     },
-
+*/
     // Is Silverlight.  Check if Silverlight is installed.
     isSilverlight: function() {
       var objPlugin = navigator.plugins["Silverlight Plug-In"];
